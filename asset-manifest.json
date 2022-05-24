@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rpg-class-test/static/css/main.bad94377.css",
+    "main.js": "/rpg-class-test/static/js/main.976e96e0.js",
+    "index.html": "/rpg-class-test/index.html",
+    "main.bad94377.css.map": "/rpg-class-test/static/css/main.bad94377.css.map",
+    "main.976e96e0.js.map": "/rpg-class-test/static/js/main.976e96e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bad94377.css",
+    "static/js/main.976e96e0.js"
+  ]
+}
