@@ -7,7 +7,174 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #432;
+}
+
+body {
+  background-image: linear-gradient(to right, #d5b391 0%, #f6d4b2 33%, #f6d4b2 67%, #d5b391 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 6em);
+  padding: 3em;
+}
+
+@keyframes drop {
+  0% {
+    transform: scale(1.1);
+    opacity: 0%;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 100%;
+  }
+}
+
+.card {
+  background-image: linear-gradient(#fed, #fdb);
+  width: 400px;
+  border-radius: 15px;
+  padding: 15px 35px;
+  box-shadow: 10px 10px 30px #4328;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  animation: drop 0.3s alternate;
+}
+
+.welcome-section {
+  align-items: center;
+}
+
+.welcome-section p {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+/* STATEMENT SECTION */
+.statement-section {
+  width: 100%;
+  position: relative;
+}
+
+.statement-count {
+  margin-bottom: 20px;
+}
+
+.statement-count span {
+  font-size: 28px;
+}
+
+.statement-text {
+  margin-bottom: 12px;
+  text-align: center;
+  font-size: 1.3em;
+  height: 3.5em;
+}
+
+/* ANSWER SECTION */
+.answer-section {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.MuiSlider-root .MuiSlider-markLabel {
+  color: #875;
+  font-variant: small-caps;
+}
+
+/* RESULT SECTION */
+.result-section {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  align-items: center;
+  max-width: 1280px;
+}
+
+.result-heading {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.result-heading-class {
+  font-family: 'Secular One', sans-serif;
+  font-size: 1.8em;
+  font-variant-caps: small-caps;
+}
+
+.result-description {
+  margin: 0 0 20px 0;
+}
+
+.result-roles-section {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.result-roles-block {
+  font-size: 0.8em;
+  max-width: 200px;
+  margin: 0 0.4em;
+}
+
+.roles-section {
+  margin-top: 32px;
+  list-style: none;
+}
+
+.roles-section h4 {
+  margin: 0;
+}
+
+.roles-section p {
+  margin-top: 0.5em;
+}
+
+.role {
+  font-family: 'Secular One', sans-serif;
+  font-size: 1.6em;
+  font-variant-caps: small-caps;
+}
+
+.role-Assaulter {
+  color: #a44;
+}
+
+.role-Vanguard {
+  color: #588;
+}
+
+.role-Ruiner {
+  color: #06a;
+}
+
+.role-Healer {
+  color: #582;
+}
+
+.role-Disruptor {
+  color: #758;
+}
+
+.role-Supporter {
+  color: #970;
+}
+
+hr {
+  border: 1px solid #4324;
+}
+
+.end-section {
+  margin-top: 1em;
+  text-align: center;
 }
