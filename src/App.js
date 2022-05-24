@@ -119,14 +119,14 @@ export default function App() {
             <div className='result-roles-section'>
 
               <div className='result-roles-block'>
-                <span><b>Primary role</b></span><br />
+                <span>Primary role</span><br />
                 <span className={'role role-' + selectedClass.primaryRole}>
                   {selectedClass.primaryRole}
                 </span>
               </div>
 
               <div className='result-roles-block'>
-                <span><b>Secondary role</b></span><br />
+                <span>Secondary role</span><br />
                 <span className={'role role-' + selectedClass.secondaryRole}>
                   {selectedClass.secondaryRole}
                 </span>
