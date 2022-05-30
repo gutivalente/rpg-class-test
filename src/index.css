@@ -22,6 +22,14 @@ body {
   padding: 3em;
 }
 
+#root {
+  position: relative;
+  display: flex;
+  min-height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
 h1 {
   font-weight: bold;
 }
@@ -197,7 +205,21 @@ hr {
 
 .end-section {
   margin-top: 1em;
+  margin-bottom: 50px;
   text-align: center;
+}
+
+footer {
+  position: absolute;
+  left: 0px;
+  bottom: -30px;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+a {
+  color: #964;
 }
 
 @media (max-width: 320px) {
