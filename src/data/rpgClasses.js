@@ -1,4 +1,4 @@
-export const classes = [
+export const rpgClasses = [
   {
     name: "Gladiator",
     description: "Bring on any challenge, you'll have it, and you'll conquer it like your life depends on it.",

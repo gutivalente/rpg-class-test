@@ -1,0 +1,42 @@
+.statement-section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.statement-count {
+  margin-bottom: 20px;
+}
+
+.statement-count span {
+  font-size: 28px;
+}
+
+.statement-text {
+  margin-bottom: 12px;
+  text-align: center;
+  font-size: 1.3em;
+  height: 3.5em;
+}
+
+/* ANSWER SECTION */
+.answer-section {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.MuiSlider-root .MuiSlider-markLabel {
+  color: #875;
+  font-variant: small-caps;
+}
+
+@media (max-width: 570px) {
+  .statement-text {
+    height: 5.5em;
+  }
+}

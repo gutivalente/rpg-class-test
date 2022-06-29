@@ -1,0 +1,12 @@
+.welcome-section {
+  align-items: center;
+}
+
+.welcome-section p {
+  margin: 0.5em 0;
+  font-size: 1.2em;
+}
+
+.welcome-section button {
+  margin: 0.5em 0;
+}
